@@ -34,13 +34,13 @@ li {
   font-family: 'Noto Serif JP', serif;
   font-size: 23px;
   letter-spacing: 2px;
-  line-height: 35px;
+  line-height: 30px;
 }
 
 .txtm {
   font-family: 'Noto Serif JP', serif;
   color: #ffffff;
-  line-height: 38px;
+  line-height: 30px;
   letter-spacing: 2px;
   font-size: 17px;
 }
@@ -49,7 +49,7 @@ li {
   color: #ffffff;
   font-family: 'Noto Serif JP', serif;
   font-size: 16px;
-  line-height: 35px;
+  line-height: 30px;
   letter-spacing: 2px;
 }
 
@@ -310,7 +310,7 @@ header .main-text h1 {
   margin: 25px 40px;
   padding: 30px 20px;
   transition: 0.3s;
-  height: 430px;
+  height: 400px;
   box-shadow: 0 0 2px white, 0 0 5px #e0e0e0, 0 0 5px #e0e0e0, 0 0 5px;
 }
 
