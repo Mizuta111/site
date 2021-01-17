@@ -1,3 +1,4 @@
+@charset "UTF-8";
 *,
 *::before,
 *::after {
@@ -46,7 +47,7 @@ li {
 }
 
 .txts {
-  font-family: 'Noto Serif JP', serif;
+  font-family: "游ゴシック Medium";
   color: #ffffff;
   font-size: 15px;
   line-height: 33px;
