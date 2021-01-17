@@ -711,8 +711,9 @@ footer .txts {
     margin: 30px auto;
   }
   .skill-box .skill-item {
-    max-width: 100px;
+    max-width: 180px;
     margin: 15px auto;
+    padding: 10px 0;
   }
   .skill-box .img {
     font-size: 40px;
