@@ -48,7 +48,7 @@ li {
 .txts {
   color: #ffffff;
   font-family: 'Noto Serif JP', serif;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 33px;
   letter-spacing: 2px;
 }
@@ -80,8 +80,8 @@ li {
 }
 
 .img {
-  font-size: 60px;
-  margin-bottom: 40px;
+  font-size: 55px;
+  margin-bottom: 30px;
   color: #ffffff;
 }
 
@@ -163,7 +163,7 @@ header .header-box .header-menu .menu-list {
   margin-top: 5px;
 }
 
-header .header-box .header-menu .menu-list a {
+header .header-box .header-menu a {
   margin: 5px 20px;
   font-size: 15px;
   padding: 1px 5px;
@@ -298,6 +298,7 @@ header .main-text h1 {
   justify-content: center;
   max-width: 1500px;
   margin: 100px auto;
+  padding: 20px 0;
   flex-wrap: wrap;
   transition: 0.3s;
   box-shadow: 0 0 1px #2196f3, 0 0 10px #2196f3, 0 0 40px #2196f3;
@@ -307,21 +308,20 @@ header .main-text h1 {
   text-align: center;
   max-width: 340px;
   width: 100%;
-  margin: 25px 40px;
-  padding: 30px 20px;
+  margin: 30px;
+  padding: 20px;
   transition: 0.3s;
-  height: 415px;
-  box-shadow: 0 0 2px white, 0 0 5px #e0e0e0, 0 0 5px #e0e0e0, 0 0 5px;
+  box-shadow: 0 0 1px white, 0 0 1px #e0e0e0, 0 0 1px #e0e0e0, 0 0 1px;
 }
 
 .flow-item .txtl {
-  padding-bottom: 5px;
+  padding-bottom: 10px;
   border-bottom: 1px solid #2196f3;
 }
 
 .flow-item .txts {
   text-align: left;
-  margin-top: 5px;
+  margin-top: 10px;
 }
 
 .skill {
@@ -341,7 +341,7 @@ header .main-text h1 {
 }
 
 .skill-box .skill-item {
-  max-width: 250px;
+  max-width: 200px;
   width: 100%;
   margin: 30px auto;
 }
@@ -349,26 +349,6 @@ header .main-text h1 {
 .skill-box .img {
   transition: 0.3s;
   margin-bottom: 20px;
-}
-
-.skill-box .html:hover {
-  color: #ee3e09;
-}
-
-.skill-box .css:hover {
-  color: #0f77ff;
-}
-
-.skill-box .sass:hover {
-  color: #e751ce;
-}
-
-.skill-box .javascript:hover {
-  color: #fae903;
-}
-
-.skill-box .wordpless:hover {
-  color: #3a3a3a;
 }
 
 .works {
@@ -384,7 +364,7 @@ header .main-text h1 {
 }
 
 .works-item {
-  max-width: 480px;
+  max-width: 450px;
   width: 100%;
   margin: 20px auto;
   transition: 0.3s;
@@ -392,11 +372,6 @@ header .main-text h1 {
 
 .works-item:hover {
   opacity: 0.3;
-}
-
-.works-item img {
-  max-width: 500px;
-  vertical-align: bottom;
 }
 
 .contact {
@@ -484,8 +459,8 @@ footer .txts {
     font-size: 15px;
   }
   .img {
-    font-size: 50px;
-    margin-bottom: 40px;
+    font-size: 45px;
+    margin-bottom: 20px;
   }
   .header-text a {
     display: none;
@@ -515,23 +490,23 @@ footer .txts {
   .profile-box .profile-text {
     padding-right: 10px;
   }
-  .profile-box .profile-text .text-box1 .name {
+  .profile-box .profile-text .name {
     font-size: 25px;
     margin-top: 10px;
   }
-  .profile-box .profile-text .text-box1 .name .twitter {
+  .profile-box .profile-text .name .twitter {
     font-size: 25px;
     transition: 0.3s;
   }
-  .profile-box .profile-text .text-box1 .name .instagram {
+  .profile-box .profile-text .name .instagram {
     font-size: 25px;
     margin-left: 10px;
   }
-  .profile-box .profile-text .text-box1 .name .github {
+  .profile-box .profile-text .name .github {
     font-size: 25px;
     margin-left: 10px;
   }
-  .profile-box .profile-text .text-box1 .name .mail {
+  .profile-box .profile-text .name .mail {
     font-size: 25px;
     margin-left: 10px;
   }
@@ -556,8 +531,7 @@ footer .txts {
   }
   .flow-item {
     margin: 20px;
-    padding: 10px;
-    height: 280px;
+    padding: 20px;
   }
   .flow-item .txts {
     margin-top: 10px;
@@ -605,7 +579,7 @@ footer .txts {
 
 @media screen and (max-width: 768px) {
   .txtl {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 28px;
   }
   .txtm {
@@ -628,8 +602,8 @@ footer .txts {
     font-size: 12px;
   }
   .img {
-    font-size: 40px;
-    margin-bottom: 20px;
+    font-size: 38px;
+    margin-bottom: 10px;
   }
   .header-box {
     display: none !important;
@@ -700,6 +674,7 @@ footer .txts {
     padding: 0 10px;
   }
   .service-item {
+    max-width: 700px;
     margin: 0 auto 30px;
     padding: 20px 15px;
   }
@@ -712,13 +687,13 @@ footer .txts {
   }
   .flow-box {
     margin: 30px auto;
-    padding: 20px 0;
+    padding: 10px 0;
   }
   .flow-item {
+    max-width: 600px;
     width: 100%;
-    margin: 15px 20px;
+    margin: 10px 20px;
     padding: 15px;
-    height: 290px;
   }
   .flow-item .txtl {
     padding-bottom: 10px;
@@ -736,8 +711,8 @@ footer .txts {
     margin: 30px auto;
   }
   .skill-box .skill-item {
-    max-width: 150px;
-    margin: 20px auto;
+    max-width: 100px;
+    margin: 15px auto;
   }
   .skill-box .img {
     font-size: 40px;
@@ -750,6 +725,7 @@ footer .txts {
     margin: 20px auto 0;
   }
   .works-item {
+    max-width: 350px;
     margin: 10px auto;
   }
   .contact {
@@ -842,9 +818,6 @@ nav .inner ul li a {
   }
 }
 
-/*============
-  .toggle_btn
-  =============*/
 .toggle_btn {
   display: block;
   position: fixed;
@@ -896,9 +869,6 @@ nav .inner ul li a {
   transform: translateY(-10px) rotate(315deg);
 }
 
-/*============
-  #mask
-  =============*/
 #mask {
   display: none;
   transition: all .5s;

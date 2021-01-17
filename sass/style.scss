@@ -50,7 +50,7 @@ li {
 .txts {
   color: #ffffff;
   font-family: 'Noto Serif JP', serif;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 33px;
   letter-spacing: 2px;
 }
@@ -82,8 +82,8 @@ li {
 }
 
 .img {
-  font-size: 60px;
-  margin-bottom: 40px;
+  font-size: 55px;
+  margin-bottom: 30px;
   color: #ffffff;
 }
 
@@ -98,7 +98,7 @@ li {
   transform: translateY(0);
 }
 
-// ////////////header///////////////////
+//header
 
 header {
   background-image: url(../img/background1.jpg);
@@ -112,7 +112,7 @@ header {
     display: none;
   }
 
-  // 文字のエフェクト
+//文字のエフェクト
 
   a {
     color: #2196f3;
@@ -137,7 +137,7 @@ header {
     background-color: rgba(1, 1, 14, 0.8);
     z-index: 99;
 
-    // ヘッダーアニメーション
+//ヘッダーアニメーション
 
     .header-line {
       position: absolute;
@@ -159,28 +159,22 @@ header {
       }
     }
 
-    .header-text {
-
-      a {
-        padding: 0 10px;
-        letter-spacing: 3px;
-        font-size: 28px;
-      }
+    .header-text a {
+      padding: 0 10px;
+      letter-spacing: 3px;
+      font-size: 28px;
     }
 
-    .header-menu {
+    .header-menu .menu-list {
+      display: flex;
+      margin-top: 5px;
+    }
 
-      .menu-list {
-        display: flex;
-        margin-top: 5px;
-
-        a {
-          margin: 5px 20px;
-          font-size: 15px;
-          padding: 1px 5px;
-          font-weight: bold;
-        }
-      }
+    .header-menu a {
+      margin: 5px 20px;
+      font-size: 15px;
+      padding: 1px 5px;
+      font-weight: bold;
     }
   }
 
@@ -208,7 +202,7 @@ header {
   }
 }
 
-// ////////profile//////////
+//profile
 
 .profile {
   margin: 100px 50px 100px 50px;
@@ -278,7 +272,7 @@ header {
   }
 }
 
-// /////////service/////////////
+//service
 
 .service {
 
@@ -311,7 +305,7 @@ header {
   }
 }
 
-// //////////flow//////////
+//flow
 
 .flow {
   margin: 100px 30px;
@@ -321,6 +315,7 @@ header {
     justify-content: center;
     max-width: 1500px;
     margin: 100px auto;
+    padding: 20px 0;
     flex-wrap: wrap;
     transition: 0.3s;
     box-shadow: 0 0 1px #2196f3, 0 0 10px #2196f3, 0 0 40px #2196f3, ;
@@ -330,25 +325,24 @@ header {
     text-align: center;
     max-width: 340px;
     width: 100%;
-    margin: 25px 40px;
-    padding: 30px 20px;
+    margin: 30px;
+    padding: 20px;
     transition: 0.3s;
-    height: 415px;
-    box-shadow: 0 0 2px rgb(255, 255, 255), 0 0 5px rgb(224, 224, 224), 0 0 5px rgb(224, 224, 224), 0 0 5px, ;
+    box-shadow: 0 0 1px rgb(255, 255, 255), 0 0 1px rgb(224, 224, 224), 0 0 1px rgb(224, 224, 224), 0 0 1px, ;
 
     .txtl {
-      padding-bottom: 5px;
+      padding-bottom: 10px;
       border-bottom: 1px solid #2196f3;
     }
 
     .txts {
       text-align: left;
-      margin-top: 5px;
+      margin-top: 10px;
     }
   }
 }
 
-// //////////skill//////////
+//skill
 
 .skill {
   margin: 30px 30px 100px 30px;
@@ -365,7 +359,7 @@ header {
     box-shadow: 0 0 1px #2196f3, 0 0 7px #2196f3, 0 0 20px #2196f3, ;
 
     .skill-item {
-      max-width: 250px;
+      max-width: 200px;
       width: 100%;
       margin: 30px auto;
     }
@@ -374,30 +368,10 @@ header {
       transition: 0.3s;
       margin-bottom: 20px;
     }
-
-    .html:hover {
-      color: rgb(238, 62, 9);
-    }
-
-    .css:hover {
-      color: #0f77ff;
-    }
-
-    .sass:hover {
-      color: rgb(231, 81, 206);
-    }
-
-    .javascript:hover {
-      color: rgb(250, 233, 3);
-    }
-
-    .wordpless:hover {
-      color: rgb(58, 58, 58);
-    }
   }
 }
 
-// /////////works/////////
+//works
 
 .works {
   margin: 0 30px 100px;
@@ -411,7 +385,7 @@ header {
   }
 
   &-item {
-    max-width: 480px;
+    max-width: 450px;
     width: 100%;
     margin: 20px auto;
     transition: 0.3s;
@@ -419,15 +393,10 @@ header {
     &:hover {
       opacity: 0.3;
     }
-
-    img {
-      max-width: 500px;
-      vertical-align: bottom;
-    }
   }
 }
 
-///////////////contact///////////
+//contact
 
 .contact {
   margin: 0 30px 150px;
@@ -478,7 +447,7 @@ header {
   }
 }
 
-// ////////footer/////////
+//footer
 
 footer {
   background: #000;
@@ -491,11 +460,11 @@ footer {
   }
 }
 
-// //////////レスポンシブ////////////
 
-////////////////////////////
-///////////1050px///////////
-////////////////////////////
+//レスポンシブ
+
+//1050px
+
 
 @media screen and (max-width: 1050px) {
 
@@ -529,8 +498,8 @@ footer {
   }
 
   .img {
-    font-size: 50px;
-    margin-bottom: 40px;
+    font-size: 45px;
+    margin-bottom: 20px;
   }
 
   // ///////header////////
@@ -552,7 +521,7 @@ footer {
     padding-top: 40vh !important;
   }
 
-  ////////profile/////////
+  //profile
 
   .profile {
     margin: 70px 20px;
@@ -570,37 +539,35 @@ footer {
       .profile-text {
         padding-right: 10px;
 
-        .text-box1 {
-          .name {
+        .name {
+          font-size: 25px;
+          margin-top: 10px;
+
+          .twitter {
             font-size: 25px;
-            margin-top: 10px;
+            transition: 0.3s;
+          }
 
-            .twitter {
-              font-size: 25px;
-              transition: 0.3s;
-            }
+          .instagram {
+            font-size: 25px;
+            margin-left: 10px;
+          }
 
-            .instagram {
-              font-size: 25px;
-              margin-left: 10px;
-            }
+          .github {
+            font-size: 25px;
+            margin-left: 10px;
+          }
 
-            .github {
-              font-size: 25px;
-              margin-left: 10px;
-            }
-
-            .mail {
-              font-size: 25px;
-              margin-left: 10px;
-            }
+          .mail {
+            font-size: 25px;
+            margin-left: 10px;
           }
         }
       }
     }
   }
 
-  // ////////service/////////
+  //service
 
   .service {
     &-box {
@@ -619,7 +586,7 @@ footer {
     }
   }
 
-  /////////flow//////////
+  //flow
 
   .flow {
     margin: 70px 30px;
@@ -631,8 +598,7 @@ footer {
 
     &-item {
       margin: 20px;
-      padding: 10px;
-      height: 280px;
+      padding: 20px;
 
       .txts {
         margin-top: 10px;
@@ -640,7 +606,7 @@ footer {
     }
   }
 
-  // //////skill////////
+  //skill
 
   .skill {
     margin: 30px 30px 70px 30px;
@@ -660,7 +626,7 @@ footer {
     }
   }
 
-  /////////works/////////
+  //works
 
   .works {
     margin: 0 30px 70px;
@@ -674,7 +640,7 @@ footer {
     }
   }
 
-  /////////contact/////////
+  //contact
 
   .contact {
     margin: 0 30px 100px;
@@ -693,22 +659,23 @@ footer {
     }
   }
 
-  ///////footer////////
+  //footer
 
   footer {
     height: 100px;
   }
+
   //
 }
 
-///////////////////////////////
-/////////////640px/////////////
-///////////////////////////////
+
+//640px
+
 
 @media screen and (max-width: 768px) {
 
   .txtl {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 28px;
   }
 
@@ -737,11 +704,11 @@ footer {
   }
 
   .img {
-    font-size: 40px;
-    margin-bottom: 20px;
+    font-size: 38px;
+    margin-bottom: 10px;
   }
 
-  ////////////header////////////
+  //header
 
   .header-box {
     display: none !important;
@@ -760,7 +727,7 @@ footer {
     }
   }
 
-  ////////////profile///////////
+  //profile
 
   .profile {
     margin: 50px 20px;
@@ -820,7 +787,7 @@ footer {
     }
   }
 
-  //////////service///////////
+  //service
 
   .service {
     margin: 0 10px;
@@ -832,6 +799,7 @@ footer {
     }
 
     &-item {
+      max-width: 700px;
       margin: 0 auto 30px;
       padding: 20px 15px;
 
@@ -842,21 +810,21 @@ footer {
     }
   }
 
-  ///////////flow////////////
+  //flow
 
   .flow {
     margin: 50px 20px;
 
     &-box {
       margin: 30px auto;
-      padding: 20px 0;
+      padding: 10px 0;
     }
 
     &-item {
+      max-width: 600px;
       width: 100%;
-      margin: 15px 20px;
+      margin: 10px 20px;
       padding: 15px;
-      height: 290px;
 
       .txtl {
         padding-bottom: 10px;
@@ -870,7 +838,7 @@ footer {
     }
   }
 
-  //////////skill//////////
+  //skill
 
   .skill {
     margin: 20px 20px 50px 20px;
@@ -880,8 +848,8 @@ footer {
       margin: 30px auto;
 
       .skill-item {
-        max-width: 150px;
-        margin: 20px auto;
+        max-width: 100px;
+        margin: 15px auto;
       }
 
       .img {
@@ -891,7 +859,7 @@ footer {
     }
   }
 
-  //////////works/////////
+  //works
 
   .works {
     margin: 0 20px 50px;
@@ -901,11 +869,12 @@ footer {
     }
 
     &-item {
+      max-width: 350px;
       margin: 10px auto;
     }
   }
 
-  //////////contact/////////
+  //contact
 
   .contact {
     margin: 0 30px 100px;
@@ -932,7 +901,7 @@ footer {
     }
   }
 
-  /////////footer/////////
+  //footer
 
   footer {
     height: 70px;
@@ -943,14 +912,11 @@ footer {
     }
   }
 
-  ////////////////////////
-  //ハンバーガーメニュー//
-  ////////////////////////
-  
+  //ハンバーガーメニュー
+
   #navArea {
     display: initial !important;
   }
-  //
 }
 
 nav {
@@ -1011,9 +977,7 @@ nav .inner ul li a {
   }
 }
 
-/*============
-  .toggle_btn
-  =============*/
+//.toggle_btn
 
 .toggle_btn {
   display: block;
@@ -1068,9 +1032,7 @@ nav .inner ul li a {
   transform: translateY(-10px) rotate(315deg);
 }
 
-/*============
-  #mask
-  =============*/
+//#mask
 
 #mask {
   display: none;
