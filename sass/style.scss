@@ -516,7 +516,6 @@ footer {
 
     a {
       font-size: 15px;
-      margin: 0 10px !important;
     }
   }
   
@@ -576,7 +575,7 @@ footer {
     &-item {
       margin: 0 10px;
       box-shadow: 0 0 5px #2196f3, 0 0 5px #2196f3, 0 0 5px #2196f3, ;
-      padding: 20px !important;
+      padding: 20px;
 
       .txtl {
         margin-bottom: 10px;
@@ -663,8 +662,6 @@ footer {
   footer {
     height: 100px;
   }
-
-  //
 }
 
 
@@ -721,7 +718,7 @@ footer {
     }
 
     h1 {
-      font-size: 55px !important;
+      font-size: 52px !important;
     }
   }
 
