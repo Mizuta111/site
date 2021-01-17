@@ -112,7 +112,7 @@ header {
     display: none;
   }
 
-//文字のエフェクト
+  //文字のエフェクト
 
   a {
     color: #2196f3;
@@ -128,6 +128,8 @@ header {
     }
   }
 
+  //
+
   .header-box {
     display: flex;
     justify-content: space-between;
@@ -137,7 +139,7 @@ header {
     background-color: rgba(1, 1, 14, 0.8);
     z-index: 99;
 
-//ヘッダーアニメーション
+  //ヘッダーアニメーション
 
     .header-line {
       position: absolute;
@@ -158,6 +160,8 @@ header {
         transform: translateX(-100%);
       }
     }
+
+  //
 
     .header-text a {
       padding: 0 10px;
@@ -180,8 +184,7 @@ header {
 
   .main-text {
     text-align: center;
-    padding-top: 350px;
-    transition: 1.5s;
+    padding-top: 37vh;
 
     p {
       font-family: 'Maven Pro';
@@ -516,11 +519,7 @@ footer {
       margin: 0 10px !important;
     }
   }
-
-  .main-text {
-    padding-top: 40vh !important;
-  }
-
+  
   //profile
 
   .profile {
@@ -715,7 +714,6 @@ footer {
   }
 
   .main-text {
-    padding-top: 37vh !important;
     margin: 0 5px;
 
     p {

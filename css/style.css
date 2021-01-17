@@ -172,8 +172,7 @@ header .header-box .header-menu a {
 
 header .main-text {
   text-align: center;
-  padding-top: 350px;
-  transition: 1.5s;
+  padding-top: 37vh;
 }
 
 header .main-text p {
@@ -472,9 +471,6 @@ footer .txts {
     font-size: 15px;
     margin: 0 10px !important;
   }
-  .main-text {
-    padding-top: 40vh !important;
-  }
   .profile {
     margin: 70px 20px;
   }
@@ -609,7 +605,6 @@ footer .txts {
     display: none !important;
   }
   .main-text {
-    padding-top: 37vh !important;
     margin: 0 5px;
   }
   .main-text p {
