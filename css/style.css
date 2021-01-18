@@ -48,8 +48,8 @@ li {
 
 .txts {
   font-family: "游ゴシック Medium";
-  color: #ffffff;
-  font-size: 15px;
+  color: #ffffffd7;
+  font-size: 17px;
   line-height: 33px;
   letter-spacing: 2px;
 }
@@ -444,7 +444,7 @@ footer .txts {
     font-size: 15px;
   }
   .txts {
-    font-size: 13px;
+    font-size: 15px;
     line-height: 25px;
   }
   .content-text {
@@ -456,7 +456,7 @@ footer .txts {
   }
   .inner-text {
     line-height: 38px;
-    font-size: 15px;
+    font-size: 12px;
   }
   .img {
     font-size: 45px;
@@ -583,7 +583,7 @@ footer .txts {
     font-size: 13px;
   }
   .txts {
-    font-size: 12px;
+    font-size: 13px;
     line-height: 20px;
   }
   .content-text {
@@ -595,7 +595,7 @@ footer .txts {
   }
   .inner-text {
     line-height: 25px;
-    font-size: 12px;
+    font-size: 13px;
   }
   .img {
     font-size: 38px;
