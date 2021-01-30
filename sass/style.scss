@@ -150,7 +150,6 @@ header {
       background: linear-gradient(to left, #0c002b, rgb(3, 112, 255));
       animation: animate0 3s linear infinite;
     }
-
     @keyframes animate0 {
       0% {
         transform: translateX(100%);
@@ -542,26 +541,6 @@ footer {
         .name {
           font-size: 25px;
           margin-top: 10px;
-
-          .twitter {
-            font-size: 25px;
-            transition: 0.3s;
-          }
-
-          .instagram {
-            font-size: 25px;
-            margin-left: 10px;
-          }
-
-          .github {
-            font-size: 25px;
-            margin-left: 10px;
-          }
-
-          .mail {
-            font-size: 25px;
-            margin-left: 10px;
-          }
         }
       }
     }
@@ -757,27 +736,6 @@ footer {
           .name {
             padding-bottom: 0px;
             margin-right: 0;
-
-            .twitter {
-              color: #ffffff;
-              font-size: 30px;
-              transition: 0.3s;
-            }
-
-            .instagram {
-              font-size: 30px;
-              margin-left: 10px;
-            }
-
-            .github {
-              font-size: 30px;
-              margin-left: 10px;
-            }
-
-            .mail {
-              font-size: 30px;
-              margin-left: 10px;
-            }
           }
         }
       }

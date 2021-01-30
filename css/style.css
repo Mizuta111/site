@@ -492,22 +492,6 @@ footer .txts {
     font-size: 25px;
     margin-top: 10px;
   }
-  .profile-box .profile-text .name .twitter {
-    font-size: 25px;
-    transition: 0.3s;
-  }
-  .profile-box .profile-text .name .instagram {
-    font-size: 25px;
-    margin-left: 10px;
-  }
-  .profile-box .profile-text .name .github {
-    font-size: 25px;
-    margin-left: 10px;
-  }
-  .profile-box .profile-text .name .mail {
-    font-size: 25px;
-    margin-left: 10px;
-  }
   .service-box {
     margin: 30px auto 0;
   }
@@ -644,23 +628,6 @@ footer .txts {
   .profile-box .profile-text .text-box1 .name {
     padding-bottom: 0px;
     margin-right: 0;
-  }
-  .profile-box .profile-text .text-box1 .name .twitter {
-    color: #ffffff;
-    font-size: 30px;
-    transition: 0.3s;
-  }
-  .profile-box .profile-text .text-box1 .name .instagram {
-    font-size: 30px;
-    margin-left: 10px;
-  }
-  .profile-box .profile-text .text-box1 .name .github {
-    font-size: 30px;
-    margin-left: 10px;
-  }
-  .profile-box .profile-text .text-box1 .name .mail {
-    font-size: 30px;
-    margin-left: 10px;
   }
   .service {
     margin: 0 10px;
